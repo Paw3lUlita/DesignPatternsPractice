@@ -1,4 +1,4 @@
-package pl.ulita;
+package pl.ulita.observer_pattern;
 
 import pl.ulita.observer_pattern.observable.WeatherForecast;
 import pl.ulita.observer_pattern.observers.InternetNews;

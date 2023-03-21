@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a6fd86-084e-4464-89a8-8e633b809768" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/observator/observable/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/observator/observable/WeatherForecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/observator/observers/InternetNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/observator/observers/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/observator/observers/RadioNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/observator/observers/TvNews.java" afterDir="false" />
+    <list default="true" id="38a6fd86-084e-4464-89a8-8e633b809768" name="Changes" comment="observer pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/singleton_pattern/GuessGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/singleton_pattern/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ulita/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ulita/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ulita/observer_pattern/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +35,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.pl.ulita.singleton_pattern.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.ulita.Main" />
+      <option name="MAIN_CLASS_NAME" value="pl.ulita.observer_pattern.Main" />
       <module name="DesignPatternsPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.ulita.*" />
+          <option name="PATTERN" value="pl.ulita.observer_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.ulita.singleton_pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.ulita.singleton_pattern.Main" />
+      <module name="DesignPatternsPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.ulita.singleton_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pl.ulita.singleton_pattern.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -75,7 +85,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679302366367</updated>
-      <workItem from="1679302367956" duration="1946000" />
+      <workItem from="1679302367956" duration="2008000" />
+      <workItem from="1679403558000" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1679302982582</created>
@@ -84,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679302982583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="observer pattern">
+      <created>1679304366976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679304366976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="observer pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer pattern" />
   </component>
 </project>
